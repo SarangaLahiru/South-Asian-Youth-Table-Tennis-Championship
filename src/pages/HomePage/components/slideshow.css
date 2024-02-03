@@ -1,0 +1,55 @@
+/* src/pages/HomePage.css */
+.slider {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    
+
+  }
+  
+  .slide {
+    min-width: 100%;
+    overflow: hidden;
+    position: absolute;
+    opacity: 0;
+    height: 700px;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .left-arrow,
+  .right-arrow {
+    position: absolute;
+    top: 320px;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 60px;
+    color: aliceblue;
+  }
+  .left-arrow:hover{
+    box-shadow: 0px 0px 10px black;
+  }
+  .right-arrow:hover{
+    box-shadow: 0px 0px 10px black;
+  }
+  
+  .left-arrow {
+    left: 0;
+  }
+  
+  .right-arrow {
+    right: 0;
+  }
+  
+  .active {
+    opacity: 1;
+    z-index: 1; /* Bring the active slide to the front */
+    transition: opacity 1s ease-in-out; /* Add a transition for a smoother effect */
+  }
+  

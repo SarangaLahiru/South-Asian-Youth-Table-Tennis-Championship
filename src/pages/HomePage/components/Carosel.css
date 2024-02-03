@@ -1,0 +1,35 @@
+.lefticon{
+    background-color: rgb(69, 69, 69);
+    clip-path: polygon(32% 5%, 100% 58%, 32% 100%);
+    padding: 20px 50px;
+    transform: scale(1.5);
+    font-size: 35px;
+    
+}
+.righticon{
+    background-color: rgb(69, 69, 69);
+    padding: 20px 50px;
+    transform: scale(1.5);
+    font-size: 35px;
+    clip-path: polygon(67% 10%, 0 52%, 67% 99%);
+    
+}
+.container3{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    margin-top: 380px;
+}
+.container3 h2{
+    position: relative;
+    top: 0px;
+    
+}
+.ficon{
+    color: red;
+}
+.container2{
+    position: relative;
+    top: 80px;
+}

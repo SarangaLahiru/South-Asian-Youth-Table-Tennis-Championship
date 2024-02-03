@@ -1,0 +1,136 @@
+.utitle{
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    margin: auto;
+    padding: 20px 0px;
+    top: 50px;
+    width: 100%;
+   
+}
+.container1{
+   width: 100%;
+    height: auto;
+    position: relative;
+    top: 180px;
+    overflow: hidden;
+    
+}
+.iconf{
+    color: red;
+}
+.resultList{
+    background-color: rgb(58, 58, 58);
+    width: 650px;
+    height: 520px;
+    color: white;
+    
+
+}
+.teamList{
+    width: 650px;
+    height: 520px;
+    background-color: brown;
+    background: url(https://static.vecteezy.com/system/resources/previews/003/186/298/non_2x/versus-background-sport-competition-vs-poster-game-fight-battle-vector.jpg);
+    background-size:cover;
+    background-position:  -180px;
+}
+.teamList h2{
+    position: relative;
+    top: 220px;
+    left: 50px;
+    font-size: 70px;
+}
+@media(max-width:768px){
+    .resultList{
+        transform: scale(0.8);
+    }
+    .teamList{
+        transform: scale(0.8);
+    }
+    .resultp>h2{
+        transform: scale(0.8);
+    }
+    .teams>h2{
+        transform: scale(0.8);
+    }
+}
+@media(max-width:376px){
+    .resultList{
+        transform: scale(0.7);
+        position: relative;
+        left: -50px;
+    }
+    .teamList{
+        transform: scale(0.7);
+        position: relative;
+        left: -50px;
+    }
+    .resultp>h2{
+        transform: scale(0.7);
+    }
+    .teams>h2{
+        transform: scale(0.7);
+        position: relative;
+        left: -30px;
+    }
+    .container1{
+        top: -10px;
+    }
+    
+    
+}
+@media(max-width:415px){
+    .resultList{
+        transform: scale(0.6);
+        position: relative;
+        left: -120px;
+    }
+    .teamList{
+        transform: scale(0.6);
+        position: relative;
+        left: -120px;
+    }
+    .resultp>h2{
+        transform: scale(0.7);
+        position: relative;
+        left: -50px;
+    }
+    .teams>h2{
+        transform: scale(0.6);
+        position: relative;
+        left: -100px;
+    }
+    .container1{
+        top: -10px;
+    }
+    
+    
+}
+@media(max-width:431px){
+    .resultList{
+        transform: scale(0.6);
+        position: relative;
+        left: -120px;
+    }
+    .teamList{
+        transform: scale(0.6);
+        position: relative;
+        left: -120px;
+    }
+    .resultp>h2{
+        transform: scale(0.7);
+        position: relative;
+        left: -50px;
+    }
+    .teams>h2{
+        transform: scale(0.6);
+        position: relative;
+        left: -100px;
+    }
+    .container1{
+        top: -10px;
+    }
+    
+    
+}
